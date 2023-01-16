@@ -1,0 +1,65 @@
+.wrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  background: #151515;
+  border-radius: 0 0 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrap:hover .image {
+  transform: scale3d(1.05,1.05,1);
+}
+
+.image {
+  object-fit: cover;
+  object-position: top;
+  height: auto;
+  max-height: 225px;
+  width: 100%;
+  transition: all .2s linear;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.info {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.removeButton {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: red;
+}

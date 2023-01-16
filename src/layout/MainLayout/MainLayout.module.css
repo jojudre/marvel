@@ -1,0 +1,9 @@
+.layout {
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+  box-sizing: border-box;
+}

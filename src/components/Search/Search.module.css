@@ -1,0 +1,35 @@
+.wrap {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #151515;
+  padding: 0 0 5px 30px;
+  border-radius: 0;
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.icon {
+  fill: none;
+  stroke: #151515;
+  stroke-width: 2px;
+  stroke-linecap: square;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
